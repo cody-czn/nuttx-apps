@@ -1,0 +1,3 @@
+ifneq ($(CONFIG_EXAMPLES_MODBUS_TCP),)
+CONFIGURED_APPS += $(APPDIR)/examples/modbus_tcp
+endif

@@ -1,0 +1,5 @@
+config EXAMPLES_MODBUS_TCP
+	tristate "FreeModBus tcp"
+	default n
+	---help---
+		Enable the FreeModBus example tcp
